@@ -1,0 +1,40 @@
+body{
+    background-color:  azure;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: cornsilk;
+    height: 640px;
+    width: 500px;
+    text-align: center;
+    color: rgb(53, 8, 8);
+}
+div{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin-left: 50px;
+}
+legend{
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+label{
+    display: block;
+    text-align: left;
+}
+input{
+    display: block;
+    text-align: left;
+    width: 350px;
+    height: 25px;
+    margin: 10px 0 20px 0;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}

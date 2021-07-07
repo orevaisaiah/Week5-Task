@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: deepskyblue;
+    height: 600px;
+    width: 600px;
+    text-align: left;
+    color: rgb(87, 41, 20);
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 90px
+}
+form div{
+    margin: 20px;
+    text-align: center; 
+    font-size: larger; 
+    text-transform: capitalize;
+}
+form div input{
+    width: 80%;
+    height: 30px;
+}
+form div input::placeholder{
+    font-size: large;
+    color: rgb(137, 178, 219);
+}
