@@ -4,7 +4,7 @@ body{
     justify-content: center;
 }
 .container{
-    background-color: deepskyblue;
+    background-color: azure;
     height: 600px;
     width: 600px;
     text-align: left;
@@ -27,5 +27,5 @@ form div input{
 }
 form div input::placeholder{
     font-size: large;
-    color: rgb(137, 178, 219);
+    color: slategray;
 }
